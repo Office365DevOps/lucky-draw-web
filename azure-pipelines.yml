@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    sourceFolder: .
+    sourceFolder: ./web
     contents: '**' 
     targetFolder: $(build.artifactstagingdirectory)
     cleanTargetFolder: true
